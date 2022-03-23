@@ -1,0 +1,32 @@
+.tabs > ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+}
+
+.tabs li {
+	border-bottom: 1px solid #EEE;
+}
+
+.tabs li > a {
+	display: block;
+	padding: 0.5rem 0.75rem;;
+}
+
+.tabs li:hover {
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+
+.tabs li.active {
+	border-bottom: 1px solid #555;
+}
+
+.hidden {
+	display: none;
+}
+
+.line {
+	margin: 2rem 0;
+	border-bottom: 1px solid #555;
+}
